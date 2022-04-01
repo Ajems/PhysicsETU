@@ -30,3 +30,10 @@ CONFIG += embed_translations
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    instalationImage.png \
+    miltimetr.png \
+    multimetr20ma.png \
+    multimetr20vdc.png \
+    switch.jpg

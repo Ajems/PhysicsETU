@@ -18,6 +18,7 @@ public:
 private slots:
     void on_descriptionButton_clicked();
 
+
 private:
     Ui::MainWindow *ui;
 };
