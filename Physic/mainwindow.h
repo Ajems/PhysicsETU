@@ -19,6 +19,10 @@ private slots:
     void on_descriptionButton_clicked();
 
 
+    void on_dialR1_valueChanged(int value);
+
+    void on_dialR2_valueChanged(int value);
+
 private:
     Ui::MainWindow *ui;
 };
