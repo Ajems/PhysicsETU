@@ -107,10 +107,27 @@
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_3">
      <item>
-      <widget class="QDial" name="dialR1"/>
+      <widget class="QDial" name="dialR1">
+       <property name="minimum">
+        <number>0</number>
+       </property>
+       <property name="maximum">
+        <number>1100</number>
+       </property>
+       <property name="pageStep">
+        <number>10</number>
+       </property>
+      </widget>
      </item>
      <item>
-      <widget class="QDial" name="dialR2"/>
+      <widget class="QDial" name="dialR2">
+       <property name="minimum">
+        <number>10</number>
+       </property>
+       <property name="maximum">
+        <number>105</number>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>

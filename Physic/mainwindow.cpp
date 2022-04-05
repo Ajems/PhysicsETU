@@ -4,8 +4,10 @@
 #include <QPixmap>
 #include <QPointer>
 
-int valueOfDialR1 = 0;
-int valueOfDialR2 = 0;
+
+double valueOfDialR1 = 0;
+double valueOfDialR2 = 0;
+
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -46,12 +48,15 @@ void MainWindow::on_descriptionButton_clicked()
 
 void MainWindow::on_dialR1_valueChanged(int value)
 {
-    valueOfDialR1 = value;
+    valueOfDialR1 = value/100.0; //values from 0 to 11, step 0,01
+    ui->lcdNumber->display(valueOfDialR1); // check value
+
 }
 
 
 void MainWindow::on_dialR2_valueChanged(int value)
 {
-    valueOfDialR2 = value;
+    valueOfDialR2 = value/100.0; //values from 0.1 to 1.05, step 0,01
+    ui->lcdNumber_2->display(valueOfDialR2); //check value
 }
 
