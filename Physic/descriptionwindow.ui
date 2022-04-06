@@ -36,9 +36,9 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>560</y>
-     <width>462</width>
-     <height>151</height>
+     <y>527</y>
+     <width>521</width>
+     <height>191</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -119,37 +119,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="pushButton_3">
-   <property name="geometry">
-    <rect>
-     <x>1170</x>
-     <y>10</y>
-     <width>101</width>
-     <height>23</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Закрыть окно</string>
-   </property>
-  </widget>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>pushButton_3</sender>
-   <signal>clicked()</signal>
-   <receiver>DescriptionWindow</receiver>
-   <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>1249</x>
-     <y>15</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>1276</x>
-     <y>56</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

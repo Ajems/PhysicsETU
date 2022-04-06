@@ -8,7 +8,7 @@ DescriptionWindow::DescriptionWindow(QWidget *parent) :
     ui(new Ui::DescriptionWindow)
 {
     ui->setupUi(this);
-    QPixmap installationImage("/home/vladimir/cute/PhysicETU/Physic/instalationImage.png");
+    QPixmap installationImage("/home/vladimir/LAST_PLEASE/PhysicETU/Physic/instalationImage.png");
     ui->insrallationImage->setPixmap(installationImage.scaled(1280, 690, Qt::KeepAspectRatio));
 
     QPalette pal = QPalette();
@@ -19,7 +19,7 @@ DescriptionWindow::DescriptionWindow(QWidget *parent) :
 
 
     QFont font = ui->label->font();
-    font.setPointSize(14);
+    font.setPointSize(16);
     ui->label->setFont(font);
     ui->label_2->setFont(font);
     ui->label_3->setFont(font);
