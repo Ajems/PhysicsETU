@@ -49,7 +49,7 @@ void MainWindow::on_descriptionButton_clicked()
 void MainWindow::on_dialR1_valueChanged(int value)
 {
     valueOfDialR1 = value/100.0; //values from 0 to 11, step 0,01
-    ui->lcdNumber->display(valueOfDialR1); // check value
+    ui->lcdNumber_3->display(valueOfDialR1); // check value
 
 }
 
@@ -59,4 +59,5 @@ void MainWindow::on_dialR2_valueChanged(int value)
     valueOfDialR2 = value/100.0; //values from 0.1 to 1.05, step 0,01
     ui->lcdNumber_2->display(valueOfDialR2); //check value
 }
+
 
