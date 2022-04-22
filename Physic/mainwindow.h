@@ -23,8 +23,10 @@ private slots:
 
     void on_dialR2_valueChanged(int value);
 
-
 private:
     Ui::MainWindow *ui;
 };
+
+double func(double i1, double u2);
+
 #endif // MAINWINDOW_H

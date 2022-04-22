@@ -35,10 +35,10 @@
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>527</y>
-     <width>521</width>
-     <height>191</height>
+     <x>50</x>
+     <y>500</y>
+     <width>471</width>
+     <height>216</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -46,8 +46,8 @@
      <widget class="QLabel" name="label">
       <property name="font">
        <font>
-        <pointsize>14</pointsize>
-        <bold>true</bold>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
        </font>
       </property>
       <property name="cursor">
@@ -60,7 +60,7 @@
        <string notr="true">background-color: white</string>
       </property>
       <property name="text">
-       <string> Коэффицент усиления ОУ K = 100</string>
+       <string>Коэффицент усиления ОУ K = 100</string>
       </property>
      </widget>
     </item>
@@ -68,8 +68,8 @@
      <widget class="QLabel" name="label_2">
       <property name="font">
        <font>
-        <pointsize>14</pointsize>
-        <bold>true</bold>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
@@ -81,13 +81,13 @@
      <widget class="QLabel" name="label_3">
       <property name="font">
        <font>
-        <pointsize>14</pointsize>
-        <bold>true</bold>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
        <string>Удельная электропроводность полупроводника 
- o = 3,4*E-1 ОмE-1 МE-1</string>
+ σ = 3,4*10^(-1) Ом 10^(-1) М*10^(-1)</string>
       </property>
      </widget>
     </item>
@@ -95,12 +95,12 @@
      <widget class="QLabel" name="label_4">
       <property name="font">
        <font>
-        <pointsize>14</pointsize>
-        <bold>true</bold>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
-       <string>Коэффицент a = 5,3E-4 Тл/А</string>
+       <string>Коэффицент a = 5,3*10^(-4) Тл/А</string>
       </property>
      </widget>
     </item>
@@ -108,12 +108,12 @@
      <widget class="QLabel" name="label_5">
       <property name="font">
        <font>
-        <pointsize>14</pointsize>
-        <bold>true</bold>
+        <pointsize>12</pointsize>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
-       <string>Коэффицент B0 = 1,25E-4 Тл</string>
+       <string>Коэффицент B = 1,25*10^(-4) Тл</string>
       </property>
      </widget>
     </item>

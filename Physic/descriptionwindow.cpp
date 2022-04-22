@@ -8,7 +8,10 @@ DescriptionWindow::DescriptionWindow(QWidget *parent) :
     ui(new Ui::DescriptionWindow)
 {
     ui->setupUi(this);
-    QPixmap installationImage("/home/vladimir/LAST_PLEASE/PhysicETU/Physic/instalationImage.png");
+    this->setWindowTitle("Описание установки");
+
+
+    QPixmap installationImage("C:/Users/danil/Documents/Physic_noFunc/PhysicETU/Physic/instalationImage.png");
     ui->insrallationImage->setPixmap(installationImage.scaled(1280, 690, Qt::KeepAspectRatio));
 
     QPalette pal = QPalette();
