@@ -32,22 +32,22 @@ MainWindow::MainWindow(QWidget *parent)
     this->setWindowTitle("Эффект Холла в полупроводниках");
 
     //второй
-    QPixmap multimetr20vdc("C:/Users/danil/Documents/Physic_noFunc/PhysicETU/Physic/multimetr20vdc.png");
+    QPixmap multimetr20vdc(":resourse/img/multimetr20vdc.png");
     ui->label->setPixmap(multimetr20vdc.scaled(150, 500, Qt::KeepAspectRatio));
 
     //первый
-    QPixmap multimetr20ma("C:/Users/danil/Documents/Physic_noFunc/PhysicETU/Physic/multimetr20ma.png");
+    QPixmap multimetr20ma(":resourse/img/multimetr20ma.png");
     ui->label_2->setPixmap(multimetr20ma.scaled(150, 550, Qt::KeepAspectRatio));
 
     //третий
-    QPixmap multimetr20vdc2("C:/Users/danil/Documents/Physic_noFunc/PhysicETU/Physic/multimetr20vdc.png");
+    QPixmap multimetr20vdc2(":resourse/img/multimetr20vdc.png");
     ui->label_3->setPixmap(multimetr20vdc2.scaled(150, 500, Qt::KeepAspectRatio));
 
 
     ui->lcdNumber_2->display(0.1);
     ui->lcdNumber_3->display(0.1);
 
-    QPixmap photo("C:/Users/danil/Documents/Physic_noFunc/PhysicETU/Physic/photoinstalation.png");
+    QPixmap photo(":resourse/img/photoInstalation.png");
     ui->label_4->setPixmap(photo.scaled(650, 650, Qt::KeepAspectRatio));
 }
 

@@ -8,7 +8,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    a.setWindowIcon(QIcon("C:/Users/danil/Documents/Physic_noFunc/PhysicETU/Physic/etu.png"));
+    a.setWindowIcon(QIcon(":resourse/img/etu.png"));
 
 
     MainWindow w;
