@@ -214,6 +214,7 @@ Makefile: Physic.pro C:/Qt/6.2.4/mingw_64/mkspecs/win32-g++/qmake.conf C:/Qt/6.2
 		C:/Qt/6.2.4/mingw_64/lib/Qt6Core.prl \
 		C:/Qt/6.2.4/mingw_64/lib/Qt6EntryPoint.prl \
 		C:/Qt/6.2.4/mingw_64/mkspecs/features/build_pass.prf \
+		resources.qrc \
 		release/qmake_qmake_qm_files.qrc \
 		debug/qmake_qmake_qm_files.qrc
 	$(QMAKE) -o Makefile Physic.pro -spec win32-g++ "CONFIG+=qtquickcompiler"
@@ -361,6 +362,7 @@ C:/Qt/6.2.4/mingw_64/lib/Qt6Gui.prl:
 C:/Qt/6.2.4/mingw_64/lib/Qt6Core.prl:
 C:/Qt/6.2.4/mingw_64/lib/Qt6EntryPoint.prl:
 C:/Qt/6.2.4/mingw_64/mkspecs/features/build_pass.prf:
+resources.qrc:
 release/qmake_qmake_qm_files.qrc:
 debug/qmake_qmake_qm_files.qrc:
 qmake: FORCE

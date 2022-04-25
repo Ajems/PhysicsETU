@@ -8,10 +8,10 @@ aboutprogram::aboutprogram(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    QPixmap etu_logo("C:/Users/danil/Documents/Physic_noFunc/PhysicETU/Physic/etu.png");
+    QPixmap etu_logo(":resources/img//etu.png");
     ui->icon_1->setPixmap(etu_logo.scaled(180, 180));
 
-    QPixmap physic_logo("C:/Users/danil/Documents/Physic_noFunc/PhysicETU/Physic/physic.jpg");
+    QPixmap physic_logo(":resources/img/physic.jpg");
     ui->icon_2->setPixmap(physic_logo.scaled(180, 180));
 
 
