@@ -11,7 +11,7 @@ DescriptionWindow::DescriptionWindow(QWidget *parent) :
     this->setWindowTitle("Описание установки");
 
 
-    QPixmap installationImage(":resourse/img/instalationImage.png");
+    QPixmap installationImage(":resources/img/instalationImage.png");
     ui->insrallationImage->setPixmap(installationImage.scaled(1280, 690, Qt::KeepAspectRatio));
 
     QPalette pal = QPalette();

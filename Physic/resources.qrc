@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>img/etu.png</file>
+        <file>img/instalationImage.png</file>
+        <file>img/multimetr20ma.png</file>
+        <file>img/multimetr20vdc.png</file>
+        <file>img/photoInstalation.png</file>
+        <file>img/physic.jpg</file>
+    </qresource>
+</RCC>

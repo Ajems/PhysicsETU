@@ -56,25 +56,6 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>0</y>
-      <width>155</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <widget class="QPushButton" name="descriptionButton">
-       <property name="text">
-        <string>Описание установки</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
       <x>740</x>
       <y>410</y>
       <width>391</width>
@@ -211,7 +192,7 @@
    <widget class="QPushButton" name="descriptionButton_2">
     <property name="geometry">
      <rect>
-      <x>1190</x>
+      <x>1090</x>
       <y>10</y>
       <width>81</width>
       <height>31</height>
@@ -232,6 +213,35 @@
     </property>
     <property name="text">
      <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="about">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>0</y>
+      <width>151</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>О программе</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="descriptionButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>153</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Описание установки</string>
     </property>
    </widget>
   </widget>

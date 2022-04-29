@@ -23,6 +23,8 @@ private slots:
 
     void on_dialR2_valueChanged(int value);
 
+    void on_about_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
