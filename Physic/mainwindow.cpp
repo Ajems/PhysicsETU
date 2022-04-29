@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "descriptionwindow.h"
+#include "aboutprogram.h"
 #include <QPixmap>
 #include <QPointer>
 #include <math.h>
@@ -11,7 +12,7 @@ double valueI1 = valueOfDialR1; // == R1
 double valueU2 = valueOfDialR2; // == R2
 double valueI2 = 0;
 
-// Const of
+// Const values
 const double value_B0 = 0.000125;
 const double value_a = 0.00053;
 const double value_d = 0.0000005;
@@ -19,6 +20,7 @@ const double value_e = 1.60217663e-19;
 const double value_n = 5.73942e21;
 const double value_omega = 3.4e-1;
 
+double func(double i1, double u2);
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -32,23 +34,25 @@ MainWindow::MainWindow(QWidget *parent)
     this->setWindowTitle("Эффект Холла в полупроводниках");
 
     //второй
-    QPixmap multimetr20vdc(":resourse/img/multimetr20vdc.png");
+    QPixmap multimetr20vdc(":resources/img/multimetr20vdc.png");
     ui->label->setPixmap(multimetr20vdc.scaled(150, 500, Qt::KeepAspectRatio));
 
     //первый
-    QPixmap multimetr20ma(":resourse/img/multimetr20ma.png");
+    QPixmap multimetr20ma(":resources/img/multimetr20ma.png");
     ui->label_2->setPixmap(multimetr20ma.scaled(150, 550, Qt::KeepAspectRatio));
 
     //третий
-    QPixmap multimetr20vdc2(":resourse/img/multimetr20vdc.png");
+    QPixmap multimetr20vdc2(":resources/img/multimetr20vdc.png");
     ui->label_3->setPixmap(multimetr20vdc2.scaled(150, 500, Qt::KeepAspectRatio));
 
 
     ui->lcdNumber_2->display(0.1);
     ui->lcdNumber_3->display(0.1);
 
-    QPixmap photo(":resourse/img/photoInstalation.png");
+    QPixmap photo(":resources/img/photoInstalation.png");
     ui->label_4->setPixmap(photo.scaled(650, 650, Qt::KeepAspectRatio));
+
+    ui->lcdNumber->display(func(valueOfDialR1, valueOfDialR2));
 }
 
 MainWindow::~MainWindow()
@@ -61,6 +65,13 @@ void MainWindow::on_descriptionButton_clicked()
     DescriptionWindow descriptionWindow;
     descriptionWindow.setModal(true);
     descriptionWindow.exec();
+}
+
+void MainWindow::on_about_clicked()
+{
+    aboutprogram aboutprogram;
+    aboutprogram.setModal(true);
+    aboutprogram.exec();
 }
 
 double func(double i1, double u2)

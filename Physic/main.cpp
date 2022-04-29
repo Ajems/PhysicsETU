@@ -8,7 +8,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    a.setWindowIcon(QIcon(":resourse/img/etu.png"));
+    a.setWindowIcon(QIcon(":resources/img/etu.png"));
 
 
     MainWindow w;
