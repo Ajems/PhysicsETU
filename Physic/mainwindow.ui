@@ -17,8 +17,8 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>860</x>
-      <y>40</y>
+      <x>660</x>
+      <y>10</y>
       <width>150</width>
       <height>350</height>
      </rect>
@@ -30,8 +30,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>700</x>
-      <y>40</y>
+      <x>500</x>
+      <y>10</y>
       <width>150</width>
       <height>350</height>
      </rect>
@@ -43,8 +43,8 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>1020</x>
-      <y>40</y>
+      <x>820</x>
+      <y>10</y>
       <width>150</width>
       <height>350</height>
      </rect>
@@ -56,27 +56,8 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>0</y>
-      <width>155</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <widget class="QPushButton" name="descriptionButton">
-       <property name="text">
-        <string>Описание установки</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>740</x>
-      <y>410</y>
+      <x>540</x>
+      <y>400</y>
       <width>391</width>
       <height>191</height>
      </rect>
@@ -125,7 +106,7 @@
    <widget class="QLabel" name="textR1">
     <property name="geometry">
      <rect>
-      <x>820</x>
+      <x>620</x>
       <y>610</y>
       <width>63</width>
       <height>40</height>
@@ -144,7 +125,7 @@
    <widget class="QLabel" name="textR2">
     <property name="geometry">
      <rect>
-      <x>1020</x>
+      <x>820</x>
       <y>610</y>
       <width>63</width>
       <height>40</height>
@@ -163,8 +144,8 @@
    <widget class="QLCDNumber" name="lcdNumber">
     <property name="geometry">
      <rect>
-      <x>730</x>
-      <y>110</y>
+      <x>530</x>
+      <y>80</y>
       <width>91</width>
       <height>41</height>
      </rect>
@@ -179,8 +160,8 @@
    <widget class="QLCDNumber" name="lcdNumber_2">
     <property name="geometry">
      <rect>
-      <x>1050</x>
-      <y>110</y>
+      <x>850</x>
+      <y>80</y>
       <width>91</width>
       <height>41</height>
      </rect>
@@ -195,8 +176,8 @@
    <widget class="QLCDNumber" name="lcdNumber_3">
     <property name="geometry">
      <rect>
-      <x>890</x>
-      <y>110</y>
+      <x>690</x>
+      <y>80</y>
       <width>91</width>
       <height>41</height>
      </rect>
@@ -211,7 +192,7 @@
    <widget class="QPushButton" name="descriptionButton_2">
     <property name="geometry">
      <rect>
-      <x>1190</x>
+      <x>890</x>
       <y>10</y>
       <width>81</width>
       <height>31</height>
@@ -226,12 +207,119 @@
      <rect>
       <x>20</x>
       <y>40</y>
-      <width>661</width>
-      <height>631</height>
+      <width>400</width>
+      <height>400</height>
      </rect>
     </property>
     <property name="text">
      <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="about">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>0</y>
+      <width>151</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>О программе</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="descriptionButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>153</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Описание установки</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>300</y>
+      <width>491</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="textV1">
+       <property name="font">
+        <font>
+         <pointsize>24</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>V1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="textI1">
+       <property name="font">
+        <font>
+         <pointsize>24</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>I1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="textV2">
+       <property name="font">
+        <font>
+         <pointsize>24</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>V2</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="labelPhotoText">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>440</y>
+      <width>431</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignJustify|Qt::AlignTop</set>
     </property>
    </widget>
   </widget>
